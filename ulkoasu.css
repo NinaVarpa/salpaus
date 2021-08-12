@@ -1,0 +1,31 @@
+body{
+  background-color:rgba(0, 128, 0, 0.781);
+  color: rgba(255, 255, 0, 0.877);
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  color:aqua;
+}
+a:active{
+  color:blueviolet;
+}
+div{
+  background-color:purple;
+  text-align:center
+}
+.otsikko{
+  background-color:orange;
+}
+.alaotsikko{
+  background-color:red;
+  color:black
+}
+#etusivunappula{
+  width:30%;
+  margin:auto;
+  background-color:black;
+}
+
