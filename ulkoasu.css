@@ -30,20 +30,30 @@ div{
   background-color:black;
 }
 .projektitausta{
-  background-color: blue
+  background-color: blue;
+  text-align: left;
+  margin: auto
 }
 #Projekti{
   background-color: blue;
   color:purple;
+
 }
 .otsikko1{
   background-color: pink;
   color:purple;
-  margin bottom:30px;
+  margin-bottom:30px ; 
+  padding: 10px;
+  font-size: 22px;
 }
-.laatikko{
+#laatikko{
   background-color: pink;
   color:purple;
+  text-align: left
+}
+.merkintalaatikko{
+    width: 60px;
+    display: inline-block; 
 }
 
 
