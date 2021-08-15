@@ -49,11 +49,34 @@ div{
 #laatikko{
   background-color: pink;
   color:purple;
-  text-align: left
+  text-align: left;
+  padding: 10px;
 }
 .merkintalaatikko{
-    width: 60px;
+    width: 40px;
     display: inline-block; 
+    color: green;
+    font-size: 12px;
+}
+.otsikko2{
+  background-color: pink;
+  color:purple;
+  text-align: left;
+  font-size: 22px,
+}
+.lisaatieto{
+  winth:30%;
+  margin: auto;
+  background-color: black;
+  color:white;
+  margin-bottom: 30px;
+}
+.otsikko3{
+  background-color: blue;
+  color: purple;
+  text-align: left;
+  font-size: 18px
+  
 }
 
 
