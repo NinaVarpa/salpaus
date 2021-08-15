@@ -35,9 +35,8 @@ div{
   margin: auto
 }
 #Projekti{
-  background-color: blue;
-  color:purple;
-
+  background-color: darkblue;
+  color:powderblue;
 }
 .otsikko1{
   background-color: pink;
@@ -71,13 +70,13 @@ div{
   color:white;
   margin-bottom: 10px;
   padding: 10px;
+  
 }
 .otsikko3{
   background-color: blue;
   color: purple;
   text-align: left;
   font-size: 18px
-  
 }
 
 
