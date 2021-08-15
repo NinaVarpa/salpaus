@@ -34,7 +34,7 @@ div{
   text-align: left;
   margin: auto
 }
-#Projekti{
+.Projektitausta{
   background-color: darkblue;
   color:powderblue;
 }
@@ -50,6 +50,7 @@ div{
   color:purple;
   text-align: left;
   padding: 10px;
+  margin:center ;
 }
 .merkintalaatikko{
     width: 40px;
@@ -61,7 +62,7 @@ div{
   background-color: pink;
   color:purple;
   text-align: left;
-  font-size: 22px,
+  font-size: 24px,
 }
 .lisaatieto{
   winth:30%;
@@ -70,13 +71,30 @@ div{
   color:white;
   margin-bottom: 10px;
   padding: 10px;
+  font-size:12px
+
   
 }
 .otsikko3{
-  background-color: blue;
+  background-color: darkblue;
   color: purple;
   text-align: left;
-  font-size: 18px
+  font-size: 18px;
 }
-
+ .merkintalaatikko2{
+background-color:lavender;
+color: black;
+font-size: 10px;
+text-align:left;
+ } 
+.merkkaa{
+winth:30%;
+margin:auto;
+background-color:black;
+color:white;
+margin-bottom:10px;
+padding:10px;
+font-size:12px;
+margin: center;
+}
 
