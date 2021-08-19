@@ -1,8 +1,8 @@
 function laskutehtava(ekaArvo,tokaArvo){
   return ekaArvo + tokaArvo;
 }
-function pvmFin(vuosi,kk,pv){
-  return pv+kk+vuosi;
+function pvmfin(teksti,vuosi,kk,pv){
+  return teksti+"."pv+"."+kk+"."+vuosi;
 }
 
 console.log("Täällä ollaan!");
@@ -45,11 +45,12 @@ else{
 
 console.log(laskutehtava(927874287,9487342));
 
-let pvm="2021/08/18";
+let pvm="Päivamäärä oikeassa järjestyksessä on:2021/08/18";
 
-console.log(pvmfin(pvm.split("/")[0],...[1]...[2]));
-for (let i=1;i<=15;i++){
-  console.log("loopin internaalioluku on:"+1)
+console.log(pvmfin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2],pvm.split("/")));
+ 
+for(let i=1; i<=15;i++){
+  console.log(pvm);
 }
 
 
