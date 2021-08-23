@@ -14,7 +14,7 @@ a:active{
 }
 div{
   background-color:purple;
-  text-align:center
+  text-align:center;
 }
 .otsikko{
   background-color:pink;
@@ -28,73 +28,5 @@ div{
   width:30%;
   margin:auto;
   background-color:black;
-}
-.projektitausta{
-  background-color: blue;
-  text-align: left;
-  margin: auto
-}
-.Projektitausta{
-  background-color: darkblue;
-  color:powderblue;
-}
-.otsikko1{
-  background-color: pink;
-  color:purple;
-  margin-bottom:30px ; 
-  padding: 10px;
-  font-size: 22px;
-}
-#laatikko{
-  background-color: pink;
-  color:purple;
-  text-align: left;
-  padding: 10px;
-  margin:center ;
-}
-.merkintalaatikko{
-    width: 40px;
-    display: inline-block; 
-    color: green;
-    font-size: 12px;
-}
-.otsikko2{
-  background-color: pink;
-  color:purple;
-  text-align: left;
-  font-size: 24px,
-}
-.lisaatieto{
-  winth:30%;
-  margin: auto;
-  background-color: black;
-  color:white;
-  margin-bottom: 10px;
-  padding: 10px;
-  font-size:12px
-
-  
-}
-.otsikko3{
-  background-color: darkblue;
-  color: purple;
-  text-align: left;
-  font-size: 18px;
-}
- .merkintalaatikko2{
-background-color:lavender;
-color: black;
-font-size: 10px;
-text-align:left;
- } 
-.merkkaa{
-winth:30%;
-margin:auto;
-background-color:black;
-color:white;
-margin-bottom:10px;
-padding:10px;
-font-size:12px;
-margin: center;
 }
 
