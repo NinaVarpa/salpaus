@@ -1,12 +1,26 @@
 function laskutehtava(ekaArvo,tokaArvo){
   return ekaArvo + tokaArvo;
 }
-function pvmfin(teksti,vuosi,kk,pv){
-  return teksti+"."pv+"."+kk+"."+vuosi;
+//function pvmfin(teksti,vuosi,kk,pv){
+//  return teksti+"."pv+"."+kk+"."+vuosi;
+//}
+function pvmfin(vuosi,kk,pv){
+  if(kk==03 || kk==04|| kk==05){
+  return "kevät:"+pv+"."+kk+"."+vuosi;
 }
+function pvmfin(vuosi,kk,pv){
+  if(kk==0 6|| kk==07|| kk==08){
+  return "kesä:"+pv+"."+kk+"."+vuosi;
 
+function pvmfin(vuosi,kk,pv){
+  if(kk==09 || kk==10|| kk==11){
+  return "syksy:"+pv+"."+kk+"."+vuosi;
+
+  function pvmfin(vuosi,kk,pv){
+  if(kk==12 || kk==01|| kk==02){
+  return "Talvi:"+pv+"."+kk+"."+vuosi;
+  
 console.log("Täällä ollaan!");
-
 let ika=44;//numerot kirjoitetaan ilman lainausmerkkejä
 ika= ika+1;//integer (int)
 
