@@ -29,4 +29,19 @@ div{
   margin:auto;
   background-color:black;
 }
-
+.boksit{
+  list-style-type: none;
+}
+.KoodausDiv{
+background-color:gray;
+color:white;
+text-align: center;
+}
+.ilmoitus{
+background-color:gray;
+color:white;
+text-align: center;
+}
+.opiskelijalomake{
+  background-color: bisque;
+}
