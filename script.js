@@ -86,10 +86,10 @@ document.guerySelector('.lisaanappi').addEventListener('clikc',e=>{e.preventDefa
 
 document.guerySelector('.ilmoitus').innerHTML="<b>Moikka</b>"+document.querySelector('#kentta').value;
 
-setTimeout(() => document.querySelector('.ilmoitus').innerHTML=*'',3000);
+setTimeout(() => document.querySelector('.ilmoitus').innerHTML='',3000);
 });
 
-document.querySelector('.merkinta').addEventListener('click',=>{
+document.querySelector('.merkinta').addEventListener('click',e =>{
   e.preventDefault();
   console.log("nappi toimii!");
 
@@ -104,4 +104,3 @@ document.querySelector('.merkinta').addEventListener('click',=>{
     document.guerySelector('.boksit').children[0].innerHTML='<li class="sisalto"><input type="checkbox" id="teht_b">Tehtävä B</li>';
   }
 });
-//
