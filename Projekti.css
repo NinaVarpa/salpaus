@@ -51,10 +51,35 @@ input[type=text].lomake, select {
   }
   input[type=submit].lomake:hover {
     background-color: black;  
-  }
-.ilmoitus
+}
 .lomake1{
   background-color: lavender;
-  widows: 100%;
-
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 200px;
 }
+.otsikko3{
+  background-color:darkblue;
+  color:darkviolet;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 100px;
+}
+input[type=submit].lomake2 {
+  width: 100%;
+  background-color:black;
+  color: white;
+  padding: 14px 20px;
+  margin:8px 0
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:100px;
+  }
+  input[type=submit].lomake:hover {
+    background-color: black;  
