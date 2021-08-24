@@ -3,11 +3,11 @@
 //console.log(document.querySelector('#kentta').type);
 //console.log(document.guerySelector('lisaanappi').value);
 
-document.guerySelector('.lisaanappi').addEventListener('clikc',e=>{e.preventDefault();
+document.guerySelector('.lisaanappi').addEventListener('click', e=>{e.preventDefault();
 
-//console.log(document.guerySelector('#kentta).value);
+console.log(document.guerySelector('#kentta').value);
 
-document.guerySelector('.ilmoitus').innerHTML="<b>Moikka</b>"+document.querySelector('#kentta').value;
+document.guerySelector('.ilmoitus').innerHTML="Kentän sisältö on: <b>"+document.querySelector('#kentta').value+"<b>";
 
 setTimeout(() => document.querySelector('.ilmoitus').innerHTML='',3000);
 });

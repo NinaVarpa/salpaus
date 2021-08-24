@@ -61,12 +61,9 @@ else{
 console.log(laskutehtava(927874287,9487342));
 
 let pvm="2021/08/18";
-
-console.log(pvmfin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2],pvm.split("/")));
  
 for(let i=1; i<=15;i++){
-  console.log(i+""+pvmFin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]
-  ));
+console.log(i+" "+pvmFin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2],pvm.split("/")));
 }
 
 
