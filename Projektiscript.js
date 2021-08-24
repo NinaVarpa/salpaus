@@ -7,8 +7,8 @@ document.guerySelector('.vastaus').addEventListener('click',e=>{
   e.preventDefault();
 console.log("tunnit pidetty!");
 
-if(document.querySelector('#Hmtl').checked){document.querySelector('lomakee').children[0].innerHTML='<div class="lomakee"><input type="checkbox"id="Html"checked>HTML tunnit pidetty!</div>';
+if(document.querySelector('#Html').checked){document.querySelector('lomakee').children[0].innerHTML='<div class="lomakee"><input type="checkbox"id="Html"checked>HTML tunnit pidetty!</div>';
 }
   else{
-    document.querySelector('.Html').children[0].innerHTML = '<div class="lomakee"><input type="checbox"id="Html">HTML</div>';
-  }
+    document.querySelector('.ilmoitus').children[0].innerHTML = '<div class="lomakee"><input type="checbox"id="Html">HTML</div>';
+}
