@@ -13,8 +13,7 @@
 .laatikko{
   background-color: pink;
   text-align: left;
-  bottom:10px;
-  margin: center; 
+  bottom:10px; 
   width: 1300px;
   height:250px ;
   border: 1px solid;
@@ -54,14 +53,15 @@ input[type=text].lomake, select {
 }
 .lomakee{
   background-color: lavender;
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid black;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-left: 200px;
+  text-align: left;
+  bottom:10px; 
+  width: 700px;
+  height:70px ;
+  border: 1px solid;
+  padding:10px;
+  Margin:10px;
+  margin-left:120px;
+  margin-right:80px;
   list-style-type: none;
 }
 .otsikko3{
@@ -72,11 +72,11 @@ input[type=text].lomake, select {
   margin-left: 100px;
 }
 input[type=submit].vastaus {
-  width: 100%;
+  width: 80%;
   background-color:black;
   color: white;
   padding: 14px 20px;
-  margin:8px 0;
+  margin:12px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
