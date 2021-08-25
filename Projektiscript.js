@@ -7,6 +7,9 @@ console.log(document.querySelector('#Nimi').value);
 
 document.querySelector('.laatikko').innerHTML=
 "<b>da daa:</b>"+document.querySelector('#Nimi').value;
+
+//setTimeout(() =>document.querySelector('.laatikko')
+//.innerHTML='', 5000);
 }
 //document.querySelector('.lomakee').addEventListener('click', e=>{e.preventDefault();
 //console.log("toimii");
