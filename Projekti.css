@@ -62,6 +62,7 @@ input[type=text].lomake, select {
   border-radius: 4px;
   box-sizing: border-box;
   margin-left: 200px;
+  list-style-type: none;
 }
 .otsikko3{
   background-color:darkblue;
@@ -75,7 +76,7 @@ input[type=submit].vastaus {
   background-color:black;
   color: white;
   padding: 14px 20px;
-  margin:8px 0
+  margin:8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -83,4 +84,5 @@ input[type=submit].vastaus {
   margin-right:60px
   }
   input[type=submit].vastaus:hover {
-    background-color: black;  
+    background-color: black; 
+  } 
