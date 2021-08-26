@@ -8,15 +8,15 @@ console.log("toimii");
 
 //console.log(document.querySelector('#lomake').value);
 
-//if(document.querySelector('#lomake').checked
+document.querySelector('.lisattytieto').innerHTML=
+document.querySelector('#Nimi').value+document.querySelector('#Tieto').value;
 
-document.querySelector('.lisatty tieto').innerHTML=
-"<b>da daa</b>"+document.querySelector('#Nimi').value;
+
+if(document.querySelector('#Nimi').value=="" || document.querySelector('#Tieto').value=="")document.querySelector('.varoitus').innerHTML='Täytä kaikki kentät!'
 });
-//console.log('hap');
 
-//setTimeout(() =>document.querySelector('.laatikko')
-//.innerHTML='', 5000);
+setTimeout(() =>document.querySelector('.varoitus')
+.innerHTML='', 5000);
 //}
 //document.querySelector('.lomakee').addEventListener('click', e=>{e.preventDefault();
 //console.log("toimii");

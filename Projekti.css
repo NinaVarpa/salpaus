@@ -86,3 +86,28 @@ input[type=text].lomake, select {
   input[type=submit].vastaus:hover {
     background-color: black; 
   } 
+  .lisattytieto{
+  background-color: lavender;
+  color:black;
+  bottom:10px; 
+  width: 700px;
+  height:20px ;
+  border: 1px solid lavender;
+  padding:10px;
+  Margin:10px;
+  margin-left:180px;
+  margin-right:80px;
+
+  }
+  .varoitus{
+  background-color: red;
+  color:black;
+  bottom:10px; 
+  width: 700px;
+  height:20px ;
+  border: 1px solid black;
+  padding:10px;
+  Margin:10px;
+  margin-left:180px;
+  margin-right:80px;
+  }
