@@ -4,6 +4,8 @@
 
 document.querySelector('.lomaketieto').addEventListener('click', e=>{e.preventDefault();
 console.log("toimii");
+
+//document.querySelector('.varoitus').innerHTML="Täytä kaikki kentät"
 //});
 
 //console.log(document.querySelector('#lomake').value);
@@ -13,9 +15,8 @@ document.querySelector('#Nimi').value+document.querySelector('#Tieto').value;
 
 if(document.querySelector('#Nimi').value==""|| document.querySelector('#Tieto').value=="")document.querySelector('.varoitus').innerHTML='Täytä kaikki kentät!'
 });
-
 setTimeout(() =>document.querySelector('.varoitus')
-.innerHTML='', 5000);
+.innerHTML='', 3000);
 //}
 //document.querySelector('.lomakee').addEventListener('click', e=>{e.preventDefault();
 //console.log("toimii");

@@ -28,10 +28,10 @@
   text-align: left;
   font-size: 16px;
 }
-input[type=text].lomake, select {
+.lomake{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 10px;
+    margin: 4px 0;
     display: inline-block;
     border: 1px solid black;
     border-radius: 4px;
@@ -42,67 +42,64 @@ input[type=text].lomake, select {
     width: 100%;
     background-color:black;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 14px 14px;
+    margin: 4px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
-  input[type=submit].lomaketieto:hover {
+  .lomaketieto:hover {
     background-color: black;  
 }
 .lomakee{
   background-color: lavender;
-  text-align: left;
-  bottom:10px; 
-  width: 700px;
-  height:20px ;
   border: 1px solid lavender;
-  padding:10px;
-  margin-left:180px;
-  margin-right:80px;
   list-style-type: none;
+  margin-left: 200px;
+  margin-right: 120px;
+  margin-top: 10px;
+  padding:5px;
 }
 .otsikko3{
   background-color:darkblue;
   color:darkviolet;
   text-align: left;
   font-size: 20px;
-  margin-left: 100px;
+  margin-left: 170px;
+  margin-top: 5px;
 }
 .vastaus {
-  width: 100%;
+  width: 80%;
   background-color:black;
   color: white;
-  padding: 14px 20px;
+  padding: 12px 18px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   margin-left:180px;
-  margin-right:80px;
+  margin-right:150px;
   margin-top: 5px;
   }
-  input[type=submit].vastaus:hover {
+  .vastaus:hover {
     background-color: black; 
   } 
   .lisattytieto{
   background-color: lavender;
   color:black; 
-  width: 700px;
-  height:20px ;
   border: 1px solid lavender;
-  padding:4px;
-  margin-left:180px;
-  margin-right:80px;
+  padding:8px;
+  margin-left:200px;
+  margin-right:120px;
+  margin-top: 5;
 
   }
   .varoitus{
   background-color: red;
   color:black;
   width: 300px;
-  height:20px ;
+  height:15px ;
   border: 1px solid black;
-  padding:4px;
+  padding:2px;
   margin-left:180px;
   margin-right:80px;
   }
