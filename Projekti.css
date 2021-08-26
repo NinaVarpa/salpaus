@@ -38,7 +38,7 @@ input[type=text].lomake, select {
     box-sizing: border-box;
     color: green
   }
-  input[type=submit].lomake {
+  input[type=submit].lomaketieto {
     width: 100%;
     background-color:black;
     color: white;
@@ -48,7 +48,7 @@ input[type=text].lomake, select {
     border-radius: 4px;
     cursor: pointer;
   }
-  input[type=submit].lomake:hover {
+  input[type=submit].lomaketieto:hover {
     background-color: black;  
 }
 .lomakee{

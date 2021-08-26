@@ -1,16 +1,23 @@
 
-//console.log(document.querySelector('#Nimi').type);
-//console.log(document.querySelector('.lomake').value);
+//console.log(document.querySelector('#lomake').type);
+//console.log(document.querySelector('.lomaketieto').value);
 
-document.querySelector('.lomake').addEventListener('click', e=>{e.preventDefault();
-console.log(document.querySelector('#Nimi').value);
+document.querySelector('.lomaketieto').addEventListener('click', e=>{e.preventDefault();
+console.log("toimii");
+//});
 
-document.querySelector('.laatikko').innerHTML=
-"<b>da daa:</b>"+document.querySelector('#Nimi').value;
+//console.log(document.querySelector('#lomake').value);
+
+//if(document.querySelector('#lomake').checked
+
+document.querySelector('.lisatty tieto').innerHTML=
+"<b>da daa</b>"+document.querySelector('#Nimi').value;
+});
+//console.log('hap');
 
 //setTimeout(() =>document.querySelector('.laatikko')
 //.innerHTML='', 5000);
-}
+//}
 //document.querySelector('.lomakee').addEventListener('click', e=>{e.preventDefault();
 //console.log("toimii");
 //});
