@@ -11,8 +11,7 @@ console.log("toimii");
 document.querySelector('.lisattytieto').innerHTML=
 document.querySelector('#Nimi').value+document.querySelector('#Tieto').value;
 
-
-if(document.querySelector('#Nimi').value=="" || document.querySelector('#Tieto').value=="")document.querySelector('.varoitus').innerHTML='Täytä kaikki kentät!'
+if(document.querySelector('#Nimi').value==""|| document.querySelector('#Tieto').value=="")document.querySelector('.varoitus').innerHTML='Täytä kaikki kentät!'
 });
 
 setTimeout(() =>document.querySelector('.varoitus')
