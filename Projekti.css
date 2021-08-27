@@ -85,21 +85,9 @@
   } 
   .lisattytieto{
   background-color: lavender;
-  color:black; 
-  border: 1px solid lavender;
-  padding:8px;
-  margin-left:200px;
-  margin-right:120px;
-  margin-top: 5;
-
+  color:black;
   }
   .varoitus{
   background-color: red;
   color:black;
-  width: 300px;
-  height:15px ;
-  border: 1px solid black;
-  padding:2px;
-  margin-left:180px;
-  margin-right:80px;
   }
