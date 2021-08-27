@@ -27,35 +27,35 @@ document.querySelector('.vastaus').addEventListener('click',e=>{
 
 if(document.querySelector('#Html').checked){
   console.log('hip');
-  document.querySelector('.lomakee').children[0].innerHTML='<li class="lomakee"><input type="checkbox" id="Html" checked>HTML tunnit pidetty!</li>';
+  document.querySelector('.lista').children[0].innerHTML='<li class="lomakee"><input type="checkbox" id="Html" checked>HTML tunnit pidetty!</li>';
 }
 else{
   console.log('hop');
-  document.querySelector('.lomakee').children[0].innerHTML ='<li class="lomakee"><input type="checkbox"id="Html">HTML</li>';
+  document.querySelector('.lista').children[0].innerHTML ='<li class="lomakee"><input type="checkbox"id="Html">HTML</li>';
 }
 
 if(document.querySelector('#CSS').checked){
   console.log('hip');
-  document.querySelector('.lomakee').children[1].innerHTML='<li class="lomakee"><input type="checkbox" id="CSS" checked>CSS tunnit pidetty!</li>';
+  document.querySelector('.lista').children[1].innerHTML='<li class="lomakee"><input type="checkbox" id="CSS" checked>CSS tunnit pidetty!</li>';
 }
 else{
   console.log('hop');
-  document.querySelector('.lomakee').children[1].innerHTML ='<li class="lomakee"><input type="checkbox"id="CSS">CSS</li>';
+  document.querySelector('.lista').children[1].innerHTML ='<li class="lomakee"><input type="checkbox"id="CSS">CSS</li>';
 }
 if(document.querySelector('#JavaScript').checked){
   console.log('hip');
-  document.querySelector('.lomakee').children[2].innerHTML='<li class="lomakee"><input type="checkbox" id="JavaScript" checked>JavaScript tunnit pidetty!</li>';
+  document.querySelector('.lista').children[2].innerHTML='<li class="lomakee"><input type="checkbox" id="JavaScript" checked>JavaScript tunnit pidetty!</li>';
 }
 else{
   console.log('hop');
-  document.querySelector('.lomakee').children[2].innerHTML ='<li class="lomakee"><input type="checkbox"id="JavaScript">JavaScript</li>';
+  document.querySelector('.lista').children[2].innerHTML ='<li class="lomakee"><input type="checkbox"id="JavaScript">JavaScript</li>';
 }
 if(document.querySelector('#CICD').checked){
   console.log('hip');
-  document.querySelector('.lomakee').children[3].innerHTML='<li class="lomakee"><input type="checkbox" id="CICD" checked>CI/CD tunnit pidetty!</li>';
+  document.querySelector('.lista').children[3].innerHTML='<li class="lomakee"><input type="checkbox" id="CICD" checked>CI/CD tunnit pidetty!</li>';
 }
 else{
   console.log('hop');
-  document.querySelector('.lomakee').children[3].innerHTML ='<li class="lomakee"><input type="checkbox"id="CICD">CI/CD</li>';
+  document.querySelector('.lista').children[3].innerHTML ='<li class="lomakee"><input type="checkbox"id="CICD">CI/CD</li>';
 }
 });
