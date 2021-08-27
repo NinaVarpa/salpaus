@@ -50,8 +50,8 @@
   }
   .lomaketieto:hover {
     background-color: black;  
-}
-.lomakee{
+  }
+  .lomakee{
   background-color: lavender;
   border: 1px solid lavender;
   list-style-type: none;
@@ -59,7 +59,7 @@
   margin-right: 120px;
   margin-top: 10px;
   padding:5px;
-}
+  }
 .otsikko3{
   background-color:darkblue;
   color:darkviolet;
@@ -67,8 +67,8 @@
   font-size: 20px;
   margin-left: 170px;
   margin-top: 5px;
-}
-.vastaus {
+  }
+.merkki {
   width: 80%;
   background-color:black;
   color: white;
@@ -80,7 +80,7 @@
   margin-right:150px;
   margin-top: 5px;
   }
-  .vastaus:hover {
+  .merkki:hover {
     background-color: black; 
   } 
   .lisattytieto{

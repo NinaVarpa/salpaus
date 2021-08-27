@@ -5,9 +5,6 @@
 document.querySelector('.lomaketieto').addEventListener('click', e=>{e.preventDefault();
 console.log("toimii");
 
-//document.querySelector('.varoitus').innerHTML="Täytä kaikki kentät"
-//});
-
 //console.log(document.querySelector('#lomake').value);
 
 document.querySelector('.lisattytieto').innerHTML=
@@ -18,44 +15,37 @@ if(document.querySelector('#Nimi').value==""|| document.querySelector('#Tieto').
 setTimeout(() =>document.querySelector('.varoitus')
 .innerHTML='', 3000);
 //}
-//document.querySelector('.lomakee').addEventListener('click', e=>{e.preventDefault();
+//document.querySelector('.merkki').addEventListener('click', e=>{e.preventDefault();
 //console.log("toimii");
 //});
-document.querySelector('.vastaus').addEventListener('click',e=>{
+document.querySelector('.merkki').addEventListener('click',e=>{
   e.preventDefault();
 //console.log("tunnit pidetty!");
 
 if(document.querySelector('#Html').checked){
-  console.log('hip');
-  document.querySelector('.lista').children[0].innerHTML='<li class="lomakee"><input type="checkbox" id="Html" checked>HTML tunnit pidetty!</li>';
+  document.querySelector('.lista').children[0].innerHTML='<input type="checkbox" id="Html" checked> HTML tunnin pidetty';
 }
 else{
-  console.log('hop');
-  document.querySelector('.lista').children[0].innerHTML ='<li class="lomakee"><input type="checkbox"id="Html">HTML</li>';
+  document.querySelector('.lista').children[0].innerHTML ='<input type="checkbox"id="Html"> HTML';
 }
 
 if(document.querySelector('#CSS').checked){
-  console.log('hip');
-  document.querySelector('.lista').children[1].innerHTML='<li class="lomakee"><input type="checkbox" id="CSS" checked>CSS tunnit pidetty!</li>';
+  document.querySelector('.lista').children[1].innerHTML='<input type="checkbox" id="CSS" checked> CSS tunnit pidetty';
 }
 else{
-  console.log('hop');
-  document.querySelector('.lista').children[1].innerHTML ='<li class="lomakee"><input type="checkbox"id="CSS">CSS</li>';
+  document.querySelector('.lista').children[1].innerHTML ='<input type="checkbox" id="CSS"> CSS';
 }
+
 if(document.querySelector('#JavaScript').checked){
-  console.log('hip');
-  document.querySelector('.lista').children[2].innerHTML='<li class="lomakee"><input type="checkbox" id="JavaScript" checked>JavaScript tunnit pidetty!</li>';
+  document.querySelector('.lista').children[2].innerHTML='<input type="checkbox" id="JavaScript" checked> JavaScript tunnit pidetty';
 }
 else{
-  console.log('hop');
-  document.querySelector('.lista').children[2].innerHTML ='<li class="lomakee"><input type="checkbox"id="JavaScript">JavaScript</li>';
+  document.querySelector('.lista').children[2].innerHTML ='<input type="checkbox" id="JavaScript"> JavaScript';
 }
 if(document.querySelector('#CICD').checked){
-  console.log('hip');
-  document.querySelector('.lista').children[3].innerHTML='<li class="lomakee"><input type="checkbox" id="CICD" checked>CI/CD tunnit pidetty!</li>';
+  document.querySelector('.lista').children[3].innerHTML='<input type="checkbox" id="CICD"checked> CI/CD tunnit pidetty';
 }
 else{
-  console.log('hop');
-  document.querySelector('.lista').children[3].innerHTML ='<li class="lomakee"><input type="checkbox"id="CICD">CI/CD</li>';
+  document.querySelector('.lista').children[3].innerHTML ='<input type="checkbox" id="CICD"> CI/CD';
 }
 });
